@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC22C0981C741D78009139C3 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC22C0971C741D78009139C3 /* DemoViewController.m */; };
 		C08500981BF3AA9500DD9194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08500971BF3AA9500DD9194 /* AppDelegate.swift */; };
 		C085009A1BF3AA9500DD9194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08500991BF3AA9500DD9194 /* ViewController.swift */; };
 		C085009D1BF3AA9500DD9194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C085009B1BF3AA9500DD9194 /* Main.storyboard */; };
 		C085009F1BF3AA9500DD9194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C085009E1BF3AA9500DD9194 /* Assets.xcassets */; };
 		C08500A21BF3AA9500DD9194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08500A01BF3AA9500DD9194 /* LaunchScreen.storyboard */; };
+		C08500AB1BF3AAC300DD9194 /* MoviesData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C08500AA1BF3AAC300DD9194 /* MoviesData.plist */; };
+		C08500B11BF3AAD500DD9194 /* jurassicworld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C08500AC1BF3AAD500DD9194 /* jurassicworld.jpg */; };
+		C08500B21BF3AAD500DD9194 /* pixels.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C08500AD1BF3AAD500DD9194 /* pixels.jpg */; };
+		C08500B31BF3AAD500DD9194 /* spectre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C08500AE1BF3AAD500DD9194 /* spectre.jpg */; };
+		C08500B41BF3AAD500DD9194 /* terminatorgenisys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C08500AF1BF3AAD500DD9194 /* terminatorgenisys.jpg */; };
+		C08500B51BF3AAD500DD9194 /* themartian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C08500B01BF3AAD500DD9194 /* themartian.jpg */; };
+		C08500B71BF3AB2A00DD9194 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08500B61BF3AB2A00DD9194 /* MovieDetailsViewController.swift */; };
+		C08500B91BF3AD3900DD9194 /* MovieSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C08500B81BF3AD3900DD9194 /* MovieSummaryCell.xib */; };
+		C08500BB1BF3AD7500DD9194 /* MovieSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08500BA1BF3AD7500DD9194 /* MovieSummaryCell.swift */; };
+		C08500BD1BF3B2F500DD9194 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08500BC1BF3B2F500DD9194 /* MobileCoreServices.framework */; };
+		C08500BF1BF3B2FC00DD9194 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08500BE1BF3B2FC00DD9194 /* CoreSpotlight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC22C0951C741D77009139C3 /* SpotIt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotIt-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC22C0961C741D78009139C3 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		BC22C0971C741D78009139C3 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		C08500941BF3AA9500DD9194 /* SpotIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08500971BF3AA9500DD9194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C08500991BF3AA9500DD9194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,17 @@
 		C085009E1BF3AA9500DD9194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C08500A11BF3AA9500DD9194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C08500A31BF3AA9500DD9194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08500AA1BF3AAC300DD9194 /* MoviesData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoviesData.plist; sourceTree = "<group>"; };
+		C08500AC1BF3AAD500DD9194 /* jurassicworld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jurassicworld.jpg; sourceTree = "<group>"; };
+		C08500AD1BF3AAD500DD9194 /* pixels.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pixels.jpg; sourceTree = "<group>"; };
+		C08500AE1BF3AAD500DD9194 /* spectre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spectre.jpg; sourceTree = "<group>"; };
+		C08500AF1BF3AAD500DD9194 /* terminatorgenisys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terminatorgenisys.jpg; sourceTree = "<group>"; };
+		C08500B01BF3AAD500DD9194 /* themartian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = themartian.jpg; sourceTree = "<group>"; };
+		C08500B61BF3AB2A00DD9194 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		C08500B81BF3AD3900DD9194 /* MovieSummaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieSummaryCell.xib; sourceTree = "<group>"; };
+		C08500BA1BF3AD7500DD9194 /* MovieSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSummaryCell.swift; sourceTree = "<group>"; };
+		C08500BC1BF3B2F500DD9194 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C08500BE1BF3B2FC00DD9194 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08500BF1BF3B2FC00DD9194 /* CoreSpotlight.framework in Frameworks */,
+				C08500BD1BF3B2F500DD9194 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +66,8 @@
 		C085008B1BF3AA9500DD9194 = {
 			isa = PBXGroup;
 			children = (
+				C08500BE1BF3B2FC00DD9194 /* CoreSpotlight.framework */,
+				C08500BC1BF3B2F500DD9194 /* MobileCoreServices.framework */,
 				C08500961BF3AA9500DD9194 /* SpotIt */,
 				C08500951BF3AA9500DD9194 /* Products */,
 			);
@@ -56,12 +86,32 @@
 			children = (
 				C08500971BF3AA9500DD9194 /* AppDelegate.swift */,
 				C08500991BF3AA9500DD9194 /* ViewController.swift */,
+				C08500B61BF3AB2A00DD9194 /* MovieDetailsViewController.swift */,
+				C08500BA1BF3AD7500DD9194 /* MovieSummaryCell.swift */,
+				C08500A91BF3AAA400DD9194 /* Sample Data */,
 				C085009B1BF3AA9500DD9194 /* Main.storyboard */,
+				C08500B81BF3AD3900DD9194 /* MovieSummaryCell.xib */,
 				C085009E1BF3AA9500DD9194 /* Assets.xcassets */,
 				C08500A01BF3AA9500DD9194 /* LaunchScreen.storyboard */,
 				C08500A31BF3AA9500DD9194 /* Info.plist */,
+				BC22C0961C741D78009139C3 /* DemoViewController.h */,
+				BC22C0971C741D78009139C3 /* DemoViewController.m */,
+				BC22C0951C741D77009139C3 /* SpotIt-Bridging-Header.h */,
 			);
 			path = SpotIt;
+			sourceTree = "<group>";
+		};
+		C08500A91BF3AAA400DD9194 /* Sample Data */ = {
+			isa = PBXGroup;
+			children = (
+				C08500AA1BF3AAC300DD9194 /* MoviesData.plist */,
+				C08500AC1BF3AAD500DD9194 /* jurassicworld.jpg */,
+				C08500AD1BF3AAD500DD9194 /* pixels.jpg */,
+				C08500AE1BF3AAD500DD9194 /* spectre.jpg */,
+				C08500AF1BF3AAD500DD9194 /* terminatorgenisys.jpg */,
+				C08500B01BF3AAD500DD9194 /* themartian.jpg */,
+			);
+			name = "Sample Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +140,7 @@
 		C085008C1BF3AA9500DD9194 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Appcoda;
 				TargetAttributes = {
@@ -121,9 +172,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08500B31BF3AAD500DD9194 /* spectre.jpg in Resources */,
+				C08500B21BF3AAD500DD9194 /* pixels.jpg in Resources */,
+				C08500B11BF3AAD500DD9194 /* jurassicworld.jpg in Resources */,
+				C08500B41BF3AAD500DD9194 /* terminatorgenisys.jpg in Resources */,
 				C08500A21BF3AA9500DD9194 /* LaunchScreen.storyboard in Resources */,
 				C085009F1BF3AA9500DD9194 /* Assets.xcassets in Resources */,
+				C08500B51BF3AAD500DD9194 /* themartian.jpg in Resources */,
 				C085009D1BF3AA9500DD9194 /* Main.storyboard in Resources */,
+				C08500AB1BF3AAC300DD9194 /* MoviesData.plist in Resources */,
+				C08500B91BF3AD3900DD9194 /* MovieSummaryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +194,9 @@
 			files = (
 				C085009A1BF3AA9500DD9194 /* ViewController.swift in Sources */,
 				C08500981BF3AA9500DD9194 /* AppDelegate.swift in Sources */,
+				C08500B71BF3AB2A00DD9194 /* MovieDetailsViewController.swift in Sources */,
+				BC22C0981C741D78009139C3 /* DemoViewController.m in Sources */,
+				C08500BB1BF3AD7500DD9194 /* MovieSummaryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +307,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SpotIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.SpotIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotIt/SpotIt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -257,10 +321,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SpotIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.SpotIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotIt/SpotIt-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,6 +349,7 @@
 				C08500A81BF3AA9500DD9194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
